@@ -1,0 +1,229 @@
+2025-11-09T18:21:50.514998800+05:30[Asia/Calcutta] SCENARIO START: Successful login with valid credentials
+2025-11-09T18:21:50.525100200+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:21:53.425800300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:21:53.427802100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:21:53.432801800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:21:53.434906+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:21:55.514167900+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (2072ms)
+2025-11-09T18:21:55.516169400+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "abcd_xyz" and password "abcd@123"
+2025-11-09T18:21:57.923796800+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "abcd_xyz" and password "abcd@123" => PASSED (2407ms)
+2025-11-09T18:21:57.925810700+05:30[Asia/Calcutta]   STEP START: Then I should see a successful login message for "abcd_xyz"
+2025-11-09T18:21:58.054472900+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful login message for "abcd_xyz" => PASSED (126ms)
+2025-11-09T18:21:58.056484300+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:21:58.924710700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (868ms)
+2025-11-09T18:21:58.930748700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:21:59.308838400+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta] SCENARIO FINISHED: Successful login with valid credentials => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:21:59.341650900+05:30[Asia/Calcutta] SCENARIO START: Login fails with invalid credentials
+2025-11-09T18:21:59.343662500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:00.271748900+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:00.273763300+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:00.273763300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:00.275779100+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:03.658814700+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (3383ms)
+2025-11-09T18:22:03.658814700+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "invalid_user" and password "badpass"
+2025-11-09T18:22:04.720131300+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "invalid_user" and password "badpass" => PASSED (1057ms)
+2025-11-09T18:22:04.721128300+05:30[Asia/Calcutta]   STEP START: Then I should see a login error mentioning invalid credentials
+2025-11-09T18:22:05.014008300+05:30[Asia/Calcutta]   STEP FINISH: I should see a login error mentioning invalid credentials => PASSED (292ms)
+2025-11-09T18:22:05.018120200+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:05.059853600+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (41ms)
+2025-11-09T18:22:05.059853600+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:05.384966+05:30[Asia/Calcutta] SCENARIO FINISHED: Login fails with invalid credentials => PASSED
+2025-11-09T18:22:05.384966+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:05.395028800+05:30[Asia/Calcutta] SCENARIO START: Login fails when password is missing
+2025-11-09T18:22:05.395028800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:07.850639500+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1606ms)
+2025-11-09T18:22:07.850639500+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "testuser" and password ""
+2025-11-09T18:22:08.837716900+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "testuser" and password "" => PASSED (987ms)
+2025-11-09T18:22:08.839731100+05:30[Asia/Calcutta]   STEP START: Then I should see a login validation error for "password"
+2025-11-09T18:22:09.141553200+05:30[Asia/Calcutta]   STEP FINISH: I should see a login validation error for "password" => PASSED (301ms)
+2025-11-09T18:22:09.141553200+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:09.171892900+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (29ms)
+2025-11-09T18:22:09.171892900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta] SCENARIO FINISHED: Login fails when password is missing => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:09.524045+05:30[Asia/Calcutta] SCENARIO START: Open a new account and verify success message
+2025-11-09T18:22:09.524045+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:10.410952200+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:13.218505200+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (2807ms)
+2025-11-09T18:22:13.219503600+05:30[Asia/Calcutta]   STEP START: When I login with username "abcd_xyz" and password "abcd@123"
+2025-11-09T18:22:14.503060300+05:30[Asia/Calcutta]   STEP FINISH: I login with username "abcd_xyz" and password "abcd@123" => PASSED (1283ms)
+2025-11-09T18:22:14.504062700+05:30[Asia/Calcutta]   STEP START: And I navigate to Open New Account page
+2025-11-09T18:22:15.034580300+05:30[Asia/Calcutta]   STEP FINISH: I navigate to Open New Account page => PASSED (529ms)
+2025-11-09T18:22:15.036584300+05:30[Asia/Calcutta]   STEP START: And I select account type "SAVINGS" and from existing account "22335"
+2025-11-09T18:22:16.057363400+05:30[Asia/Calcutta]   STEP FINISH: I select account type "SAVINGS" and from existing account "22335" => PASSED (1021ms)
+2025-11-09T18:22:16.058362400+05:30[Asia/Calcutta]   STEP START: And I click Open New Account
+2025-11-09T18:22:16.214496100+05:30[Asia/Calcutta]   STEP FINISH: I click Open New Account => PASSED (156ms)
+2025-11-09T18:22:16.215497600+05:30[Asia/Calcutta]   STEP START: Then I should see a successful account opened message containing "Account Opened!" and the new account number
+2025-11-09T18:22:16.796797900+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful account opened message containing "Account Opened!" and the new account number => PASSED (581ms)
+2025-11-09T18:22:16.798236300+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:17.545432100+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (744ms)
+2025-11-09T18:22:17.545432100+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:17.804525300+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:17.804525300+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta] SCENARIO FINISHED: Open a new account and verify success message => PASSED
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:17.827482900+05:30[Asia/Calcutta] SCENARIO START: Successful registration with a unique username
+2025-11-09T18:22:17.829496200+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:18.700219100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:18.700219100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:18.702229600+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:18.702229600+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:20.235684700+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1533ms)
+2025-11-09T18:22:20.235684700+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:20.772239500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (536ms)
+2025-11-09T18:22:20.774789400+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password "Password123!"
+2025-11-09T18:22:23.313337300+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "Password123!" => PASSED (2538ms)
+2025-11-09T18:22:23.313337300+05:30[Asia/Calcutta]   STEP START: Then I should see a successful registration message for "testuser"
+2025-11-09T18:22:23.361095800+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful registration message for "testuser" => PASSED (47ms)
+2025-11-09T18:22:23.361095800+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:24.672200+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (1311ms)
+2025-11-09T18:22:24.674213500+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta] SCENARIO FINISHED: Successful registration with a unique username => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:25.097421100+05:30[Asia/Calcutta] SCENARIO START: Registration fails when username already exists
+2025-11-09T18:22:25.099438500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:27.430029600+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1401ms)
+2025-11-09T18:22:27.430029600+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:28.027521500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (597ms)
+2025-11-09T18:22:28.027521500+05:30[Asia/Calcutta]   STEP START: When I register with username "abcd_xyz" and password "abcd@123"
+2025-11-09T18:22:30.458281900+05:30[Asia/Calcutta]   STEP FINISH: I register with username "abcd_xyz" and password "abcd@123" => PASSED (2427ms)
+2025-11-09T18:22:30.458281900+05:30[Asia/Calcutta]   STEP START: Then I should see an error mentioning username exists
+2025-11-09T18:22:30.523880600+05:30[Asia/Calcutta]   STEP FINISH: I should see an error mentioning username exists => PASSED (65ms)
+2025-11-09T18:22:30.523880600+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:30.549422700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (25ms)
+2025-11-09T18:22:30.549422700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when username already exists => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:30.818561400+05:30[Asia/Calcutta] SCENARIO START: Registration fails when password is missing
+2025-11-09T18:22:30.818561400+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:31.717766800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:31.718322+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:31.718867400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:31.718867400+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:33.568682200+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1845ms)
+2025-11-09T18:22:33.568682200+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:34.174984500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (603ms)
+2025-11-09T18:22:34.176997400+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password ""
+2025-11-09T18:22:36.510927700+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "" => PASSED (2335ms)
+2025-11-09T18:22:36.517161200+05:30[Asia/Calcutta]   STEP START: Then I should see a password validation error
+2025-11-09T18:22:36.842126400+05:30[Asia/Calcutta]   STEP FINISH: I should see a password validation error => PASSED (324ms)
+2025-11-09T18:22:36.842126400+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:36.871718400+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (29ms)
+2025-11-09T18:22:36.871718400+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:37.218408+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:37.218408+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when password is missing => PASSED
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:37.224936500+05:30[Asia/Calcutta] SCENARIO START: Registration fails when password confirmation is missing
+2025-11-09T18:22:37.224936500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:38.129763800+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:39.816362900+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1686ms)
+2025-11-09T18:22:39.818377+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:40.404923500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (586ms)
+2025-11-09T18:22:40.406240300+05:30[Asia/Calcutta]   STEP START: When I register but clear the confirmation field
+2025-11-09T18:22:41.360835100+05:30[Asia/Calcutta]   STEP FINISH: I register but clear the confirmation field => PASSED (949ms)
+2025-11-09T18:22:41.360835100+05:30[Asia/Calcutta]   STEP START: Then I should see a password validation error
+2025-11-09T18:22:41.632944300+05:30[Asia/Calcutta]   STEP FINISH: I should see a password validation error => PASSED (272ms)
+2025-11-09T18:22:41.638973900+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:41.661097700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (22ms)
+2025-11-09T18:22:41.661097700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:41.942254400+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when password confirmation is missing => PASSED
+2025-11-09T18:22:41.942254400+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:41.950285900+05:30[Asia/Calcutta] SCENARIO START: Registration fails when a required field is missing (First Name)
+2025-11-09T18:22:41.950285900+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:42.809328900+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:44.806358800+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1996ms)
+2025-11-09T18:22:44.807359500+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:45.348808100+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (541ms)
+2025-11-09T18:22:45.349319900+05:30[Asia/Calcutta]   STEP START: When I register but clear the "first name" field
+2025-11-09T18:22:46.260902+05:30[Asia/Calcutta]   STEP FINISH: I register but clear the "first name" field => PASSED (911ms)
+2025-11-09T18:22:46.260902+05:30[Asia/Calcutta]   STEP START: Then I should see a required field error for "First Name"
+2025-11-09T18:22:46.553430+05:30[Asia/Calcutta]   STEP FINISH: I should see a required field error for "First Name" => PASSED (292ms)
+2025-11-09T18:22:46.553430+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:46.581845500+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (28ms)
+2025-11-09T18:22:46.582353800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:46.945458800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:46.945458800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when a required field is missing (First Name) => PASSED
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:46.954243800+05:30[Asia/Calcutta] SCENARIO START: Registration cases driven by examples
+2025-11-09T18:22:46.954243800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:47.825714100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:47.825714100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:47.826716100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:47.826716100+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:49.226666500+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1399ms)
+2025-11-09T18:22:49.227670500+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:49.792770300+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (565ms)
+2025-11-09T18:22:49.792770300+05:30[Asia/Calcutta]   STEP START: When I register with username "abcd_xyz" and password "abcd@123"
+2025-11-09T18:22:52.103601900+05:30[Asia/Calcutta]   STEP FINISH: I register with username "abcd_xyz" and password "abcd@123" => PASSED (2309ms)
+2025-11-09T18:22:52.105782200+05:30[Asia/Calcutta]   STEP START: Then I should see outcome "username_exists" for username "abcd_xyz" and field "-"
+2025-11-09T18:22:52.194954200+05:30[Asia/Calcutta]   STEP FINISH: I should see outcome "username_exists" for username "abcd_xyz" and field "-" => PASSED (89ms)
+2025-11-09T18:22:52.196070400+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:52.223856200+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (27ms)
+2025-11-09T18:22:52.224419400+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:52.478236700+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:52.478236700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration cases driven by examples => PASSED
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] --------------------------------------------------
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] SCENARIO START: Registration cases driven by examples
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:53.328484200+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+2025-11-09T18:22:54.685458800+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1356ms)
+2025-11-09T18:22:54.685458800+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+2025-11-09T18:22:55.476866800+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (790ms)
+2025-11-09T18:22:55.476866800+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password ""
+2025-11-09T18:22:57.897057700+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "" => PASSED (2420ms)
+2025-11-09T18:22:57.897057700+05:30[Asia/Calcutta]   STEP START: Then I should see outcome "password_error" for username "unique" and field "-"
+2025-11-09T18:22:57.963514200+05:30[Asia/Calcutta]   STEP FINISH: I should see outcome "password_error" for username "unique" and field "-" => PASSED (66ms)
+2025-11-09T18:22:57.963514200+05:30[Asia/Calcutta]   STEP START: And I logout
+2025-11-09T18:22:57.993158100+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (24ms)
+2025-11-09T18:22:57.993158100+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:58.362108400+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration cases driven by examples => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta] --------------------------------------------------

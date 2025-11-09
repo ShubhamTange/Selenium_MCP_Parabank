@@ -1,0 +1,7 @@
+com\parabank\hooks\StepLogger.class
+com\parabank\stepdefinitions\LoginSteps.class
+com\parabank\stepdefinitions\OpenAccountSteps.class
+com\parabank\utils\DriverFactory.class
+com\parabank\stepdefinitions\RegistrationSteps.class
+com\parabank\runners\TestRunner.class
+com\parabank\stepdefinitions\RegistrationParamSteps.class

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.parabank.runners.TestRunner" time="69.34" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shubham\Downloads\Selenium_MCP\target\test-classes;C:\Users\Shubham\Downloads\Selenium_MCP\target\classes;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.0\selenium-java-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.0\selenium-api-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.0\selenium-chrome-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Shubham\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Shubham\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Shubham\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shubham\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shubham\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Shubham\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Shubham\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.0\selenium-chromium-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.0\selenium-json-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.0\selenium-manager-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.0\selenium-devtools-v116-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.0\selenium-devtools-v117-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.0\selenium-devtools-v118-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.0\selenium-devtools-v85-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.0\selenium-edge-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.0\selenium-firefox-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.0\selenium-http-4.14.0.jar;C:\Users\Shubham\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.0\selenium-ie-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.0\selenium-remote-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.0\selenium-os-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.0\selenium-safari-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.0\selenium-support-4.14.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Shubham\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Shubham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Shubham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Shubham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Shubham\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\Shubham\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Shubham\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shubham\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shubham\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Shubham\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Shubham\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\Shubham\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Shubham\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shubham\AppData\Local\Temp\surefire4746986881031533111\surefirebooter-20251109182148335_3.jar C:\Users\Shubham\AppData\Local\Temp\surefire4746986881031533111 2025-11-09T18-21-47_777-jvmRun1 surefire-20251109182148335_1tmp surefire_0-20251109182148335_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shubham\Downloads\Selenium_MCP\target\test-classes;C:\Users\Shubham\Downloads\Selenium_MCP\target\classes;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.0\selenium-java-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.0\selenium-api-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.0\selenium-chrome-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Shubham\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Shubham\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Shubham\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shubham\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shubham\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Shubham\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Shubham\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.0\selenium-chromium-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.0\selenium-json-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.0\selenium-manager-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.0\selenium-devtools-v116-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.0\selenium-devtools-v117-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.0\selenium-devtools-v118-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.0\selenium-devtools-v85-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.0\selenium-edge-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.0\selenium-firefox-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.0\selenium-http-4.14.0.jar;C:\Users\Shubham\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.0\selenium-ie-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.0\selenium-remote-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Shubham\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Shubham\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.0\selenium-os-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.0\selenium-safari-driver-4.14.0.jar;C:\Users\Shubham\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.0\selenium-support-4.14.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Shubham\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Shubham\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Shubham\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Shubham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Shubham\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Shubham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Shubham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Shubham\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\Shubham\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Shubham\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shubham\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shubham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shubham\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Shubham\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Shubham\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\Shubham\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\Shubham\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Shubham\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shubham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Shubham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shubham"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shubham\Downloads\Selenium_MCP"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shubham\AppData\Local\Temp\surefire4746986881031533111\surefirebooter-20251109182148335_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="Shubham"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Shubham\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shubham\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\Shubham\Downloads\Selenium_MCP"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Shubham\Downloads\apache-maven-3.9.7-bin\apache-maven-3.9.7\bin;C:\Users\Shubham\Downloads\allure-2.29.0\allure-2.29.0\bin;C:\Program Files\Docker\Docker\resources\bin;%KAFKA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Shubham\AppData\Local\Microsoft\WindowsApps;C:\Users\Shubham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Shubham\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Shubham\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Successful login with valid credentials" classname="Parabank Login" time="8.985">
+    <system-out><![CDATA[
+Scenario: Successful login with valid credentials                          # src/test/resources/features/login.feature:7
+2025-11-09T18:21:50.514998800+05:30[Asia/Calcutta] SCENARIO START: Successful login with valid credentials
+2025-11-09T18:21:50.525100200+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:21:53.425800300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:21:53.427802100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:21:53.432801800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:21:53.434906+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                     # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:21:55.514167900+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (2072ms)
+2025-11-09T18:21:55.516169400+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "abcd_xyz" and password "abcd@123"
+  When I attempt to login with username "abcd_xyz" and password "abcd@123" # com.parabank.stepdefinitions.LoginSteps.i_attempt_to_login_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:21:57.923796800+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "abcd_xyz" and password "abcd@123" => PASSED (2407ms)
+2025-11-09T18:21:57.925810700+05:30[Asia/Calcutta]   STEP START: Then I should see a successful login message for "abcd_xyz"
+  Then I should see a successful login message for "abcd_xyz"              # com.parabank.stepdefinitions.LoginSteps.i_should_see_successful_login(java.lang.String)
+2025-11-09T18:21:58.054472900+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful login message for "abcd_xyz" => PASSED (126ms)
+2025-11-09T18:21:58.056484300+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                             # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:21:58.924710700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (868ms)
+2025-11-09T18:21:58.930748700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:21:59.308838400+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta] SCENARIO FINISHED: Successful login with valid credentials => PASSED
+2025-11-09T18:21:59.310723800+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 09, 2025 6:21:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:21:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login fails with invalid credentials" classname="Parabank Login" time="6.061">
+    <system-out><![CDATA[
+Scenario: Login fails with invalid credentials                                # src/test/resources/features/login.feature:12
+2025-11-09T18:21:59.341650900+05:30[Asia/Calcutta] SCENARIO START: Login fails with invalid credentials
+2025-11-09T18:21:59.343662500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:00.271748900+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:00.273763300+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:00.273763300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:00.275779100+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                        # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:03.658814700+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (3383ms)
+2025-11-09T18:22:03.658814700+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "invalid_user" and password "badpass"
+  When I attempt to login with username "invalid_user" and password "badpass" # com.parabank.stepdefinitions.LoginSteps.i_attempt_to_login_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:04.720131300+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "invalid_user" and password "badpass" => PASSED (1057ms)
+2025-11-09T18:22:04.721128300+05:30[Asia/Calcutta]   STEP START: Then I should see a login error mentioning invalid credentials
+  Then I should see a login error mentioning invalid credentials              # com.parabank.stepdefinitions.LoginSteps.i_should_see_invalid_credentials_error()
+2025-11-09T18:22:05.014008300+05:30[Asia/Calcutta]   STEP FINISH: I should see a login error mentioning invalid credentials => PASSED (292ms)
+2025-11-09T18:22:05.018120200+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                                # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:05.059853600+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (41ms)
+2025-11-09T18:22:05.059853600+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:05.379528800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:05.384966+05:30[Asia/Calcutta] SCENARIO FINISHED: Login fails with invalid credentials => PASSED
+2025-11-09T18:22:05.384966+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login fails when password is missing" classname="Parabank Login" time="4.114">
+    <system-out><![CDATA[
+Scenario: Login fails when password is missing                     # src/test/resources/features/login.feature:17
+2025-11-09T18:22:05.395028800+05:30[Asia/Calcutta] SCENARIO START: Login fails when password is missing
+2025-11-09T18:22:05.395028800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:06.244382800+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                             # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:07.850639500+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1606ms)
+2025-11-09T18:22:07.850639500+05:30[Asia/Calcutta]   STEP START: When I attempt to login with username "testuser" and password ""
+  When I attempt to login with username "testuser" and password "" # com.parabank.stepdefinitions.LoginSteps.i_attempt_to_login_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:08.837716900+05:30[Asia/Calcutta]   STEP FINISH: I attempt to login with username "testuser" and password "" => PASSED (987ms)
+2025-11-09T18:22:08.839731100+05:30[Asia/Calcutta]   STEP START: Then I should see a login validation error for "password"
+  Then I should see a login validation error for "password"        # com.parabank.stepdefinitions.LoginSteps.i_should_see_login_validation_error_for(java.lang.String)
+2025-11-09T18:22:09.141553200+05:30[Asia/Calcutta]   STEP FINISH: I should see a login validation error for "password" => PASSED (301ms)
+2025-11-09T18:22:09.141553200+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                     # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:09.171892900+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (29ms)
+2025-11-09T18:22:09.171892900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta] SCENARIO FINISHED: Login fails when password is missing => PASSED
+2025-11-09T18:22:09.502144600+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Open a new account and verify success message" classname="Open New Account" time="8.296">
+    <system-out><![CDATA[
+Scenario: Open a new account and verify success message                                                         # src/test/resources/features/open_account.feature:7
+2025-11-09T18:22:09.524045+05:30[Asia/Calcutta] SCENARIO START: Open a new account and verify success message
+2025-11-09T18:22:09.524045+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:10.409480800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:10.410952200+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                                                          # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:13.218505200+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (2807ms)
+2025-11-09T18:22:13.219503600+05:30[Asia/Calcutta]   STEP START: When I login with username "abcd_xyz" and password "abcd@123"
+  When I login with username "abcd_xyz" and password "abcd@123"                                                 # com.parabank.stepdefinitions.OpenAccountSteps.i_login_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:14.503060300+05:30[Asia/Calcutta]   STEP FINISH: I login with username "abcd_xyz" and password "abcd@123" => PASSED (1283ms)
+2025-11-09T18:22:14.504062700+05:30[Asia/Calcutta]   STEP START: And I navigate to Open New Account page
+  And I navigate to Open New Account page                                                                       # com.parabank.stepdefinitions.OpenAccountSteps.i_navigate_to_open_new_account()
+2025-11-09T18:22:15.034580300+05:30[Asia/Calcutta]   STEP FINISH: I navigate to Open New Account page => PASSED (529ms)
+2025-11-09T18:22:15.036584300+05:30[Asia/Calcutta]   STEP START: And I select account type "SAVINGS" and from existing account "22335"
+Found 14 options for fromAccount select:
+- text='20559' value='20559'
+- text='22224' value='22224'
+- text='22335' value='22335'
+- text='23001' value='23001'
+- text='23112' value='23112'
+- text='23223' value='23223'
+- text='23445' value='23445'
+- text='23556' value='23556'
+- text='23667' value='23667'
+- text='23778' value='23778'
+- text='24000' value='24000'
+- text='24111' value='24111'
+- text='29106' value='29106'
+- text='29661' value='29661'
+
+  And I select account type "SAVINGS" and from existing account "22335"                                         # com.parabank.stepdefinitions.OpenAccountSteps.i_select_account_type_and_existing_account(java.lang.String,java.lang.String)
+2025-11-09T18:22:16.057363400+05:30[Asia/Calcutta]   STEP FINISH: I select account type "SAVINGS" and from existing account "22335" => PASSED (1021ms)
+2025-11-09T18:22:16.058362400+05:30[Asia/Calcutta]   STEP START: And I click Open New Account
+  And I click Open New Account                                                                                  # com.parabank.stepdefinitions.OpenAccountSteps.i_click_open_new_account()
+2025-11-09T18:22:16.214496100+05:30[Asia/Calcutta]   STEP FINISH: I click Open New Account => PASSED (156ms)
+2025-11-09T18:22:16.215497600+05:30[Asia/Calcutta]   STEP START: Then I should see a successful account opened message containing "Account Opened!" and the new account number
+Right Panel Text: Account Opened!
+  Then I should see a successful account opened message containing "Account Opened!" and the new account number # com.parabank.stepdefinitions.OpenAccountSteps.i_should_see_account_opened_message_and_a_new_account_number_with_expected(java.lang.String)
+2025-11-09T18:22:16.796797900+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful account opened message containing "Account Opened!" and the new account number => PASSED (581ms)
+2025-11-09T18:22:16.798236300+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                                                                  # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:17.545432100+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (744ms)
+2025-11-09T18:22:17.545432100+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:17.804525300+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:17.804525300+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta] SCENARIO FINISHED: Open a new account and verify success message => PASSED
+2025-11-09T18:22:17.806633600+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Successful registration with a unique username" classname="Parabank Registration" time="7.278">
+    <system-out><![CDATA[
+Scenario: Successful registration with a unique username             # src/test/resources/features/registration.feature:7
+2025-11-09T18:22:17.827482900+05:30[Asia/Calcutta] SCENARIO START: Successful registration with a unique username
+2025-11-09T18:22:17.829496200+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:18.700219100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:18.700219100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:18.702229600+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:18.702229600+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                               # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:20.235684700+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1533ms)
+2025-11-09T18:22:20.235684700+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                  # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:20.772239500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (536ms)
+2025-11-09T18:22:20.774789400+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password "Password123!"
+  When I register with username "unique" and password "Password123!" # com.parabank.stepdefinitions.RegistrationSteps.i_register_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:23.313337300+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "Password123!" => PASSED (2538ms)
+2025-11-09T18:22:23.313337300+05:30[Asia/Calcutta]   STEP START: Then I should see a successful registration message for "testuser"
+  Then I should see a successful registration message for "testuser" # com.parabank.stepdefinitions.RegistrationSteps.i_should_see_successful_registration(java.lang.String)
+2025-11-09T18:22:23.361095800+05:30[Asia/Calcutta]   STEP FINISH: I should see a successful registration message for "testuser" => PASSED (47ms)
+2025-11-09T18:22:23.361095800+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                       # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:24.672200+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (1311ms)
+2025-11-09T18:22:24.674213500+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta] SCENARIO FINISHED: Successful registration with a unique username => PASSED
+2025-11-09T18:22:25.084787900+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration fails when username already exists" classname="Parabank Registration" time="5.721">
+    <system-out><![CDATA[
+Scenario: Registration fails when username already exists          # src/test/resources/features/registration.feature:13
+2025-11-09T18:22:25.097421100+05:30[Asia/Calcutta] SCENARIO START: Registration fails when username already exists
+2025-11-09T18:22:25.099438500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:26.027599400+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                             # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:27.430029600+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1401ms)
+2025-11-09T18:22:27.430029600+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:28.027521500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (597ms)
+2025-11-09T18:22:28.027521500+05:30[Asia/Calcutta]   STEP START: When I register with username "abcd_xyz" and password "abcd@123"
+  When I register with username "abcd_xyz" and password "abcd@123" # com.parabank.stepdefinitions.RegistrationSteps.i_register_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:30.458281900+05:30[Asia/Calcutta]   STEP FINISH: I register with username "abcd_xyz" and password "abcd@123" => PASSED (2427ms)
+2025-11-09T18:22:30.458281900+05:30[Asia/Calcutta]   STEP START: Then I should see an error mentioning username exists
+  Then I should see an error mentioning username exists            # com.parabank.stepdefinitions.RegistrationSteps.i_should_see_username_exists_error()
+2025-11-09T18:22:30.523880600+05:30[Asia/Calcutta]   STEP FINISH: I should see an error mentioning username exists => PASSED (65ms)
+2025-11-09T18:22:30.523880600+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                     # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:30.549422700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (25ms)
+2025-11-09T18:22:30.549422700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when username already exists => PASSED
+2025-11-09T18:22:30.810096900+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration fails when password is missing" classname="Parabank Registration" time="6.409">
+    <system-out><![CDATA[
+Scenario: Registration fails when password is missing    # src/test/resources/features/registration.feature:20
+2025-11-09T18:22:30.818561400+05:30[Asia/Calcutta] SCENARIO START: Registration fails when password is missing
+2025-11-09T18:22:30.818561400+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:31.717766800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:31.718322+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:31.718867400+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:31.718867400+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                   # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:33.568682200+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1845ms)
+2025-11-09T18:22:33.568682200+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                      # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:34.174984500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (603ms)
+2025-11-09T18:22:34.176997400+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password ""
+  When I register with username "unique" and password "" # com.parabank.stepdefinitions.RegistrationSteps.i_register_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:36.510927700+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "" => PASSED (2335ms)
+2025-11-09T18:22:36.517161200+05:30[Asia/Calcutta]   STEP START: Then I should see a password validation error
+  Then I should see a password validation error          # com.parabank.stepdefinitions.RegistrationSteps.i_should_see_password_error()
+2025-11-09T18:22:36.842126400+05:30[Asia/Calcutta]   STEP FINISH: I should see a password validation error => PASSED (324ms)
+2025-11-09T18:22:36.842126400+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                           # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:36.871718400+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (29ms)
+2025-11-09T18:22:36.871718400+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:37.218408+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:37.218408+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when password is missing => PASSED
+2025-11-09T18:22:37.219918600+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration fails when password confirmation is missing" classname="Parabank Registration" time="4.724">
+    <system-out><![CDATA[
+Scenario: Registration fails when password confirmation is missing # src/test/resources/features/registration.feature:26
+2025-11-09T18:22:37.224936500+05:30[Asia/Calcutta] SCENARIO START: Registration fails when password confirmation is missing
+2025-11-09T18:22:37.224936500+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:38.127749800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:38.129763800+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                             # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:39.816362900+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1686ms)
+2025-11-09T18:22:39.818377+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:40.404923500+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (586ms)
+2025-11-09T18:22:40.406240300+05:30[Asia/Calcutta]   STEP START: When I register but clear the confirmation field
+  When I register but clear the confirmation field                 # com.parabank.stepdefinitions.RegistrationSteps.i_register_but_clear_confirmation()
+2025-11-09T18:22:41.360835100+05:30[Asia/Calcutta]   STEP FINISH: I register but clear the confirmation field => PASSED (949ms)
+2025-11-09T18:22:41.360835100+05:30[Asia/Calcutta]   STEP START: Then I should see a password validation error
+  Then I should see a password validation error                    # com.parabank.stepdefinitions.RegistrationSteps.i_should_see_password_error()
+2025-11-09T18:22:41.632944300+05:30[Asia/Calcutta]   STEP FINISH: I should see a password validation error => PASSED (272ms)
+2025-11-09T18:22:41.638973900+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                     # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:41.661097700+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (22ms)
+2025-11-09T18:22:41.661097700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:41.941193+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:41.942254400+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when password confirmation is missing => PASSED
+2025-11-09T18:22:41.942254400+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration fails when a required field is missing (First Name)" classname="Parabank Registration" time="5.003">
+    <system-out><![CDATA[
+Scenario: Registration fails when a required field is missing (First Name) # src/test/resources/features/registration.feature:32
+2025-11-09T18:22:41.950285900+05:30[Asia/Calcutta] SCENARIO START: Registration fails when a required field is missing (First Name)
+2025-11-09T18:22:41.950285900+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:42.809328900+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:42.810327300+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                     # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:44.806358800+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1996ms)
+2025-11-09T18:22:44.807359500+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                        # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:45.348808100+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (541ms)
+2025-11-09T18:22:45.349319900+05:30[Asia/Calcutta]   STEP START: When I register but clear the "first name" field
+  When I register but clear the "first name" field                         # com.parabank.stepdefinitions.RegistrationSteps.i_register_but_clear_field(java.lang.String)
+2025-11-09T18:22:46.260902+05:30[Asia/Calcutta]   STEP FINISH: I register but clear the "first name" field => PASSED (911ms)
+2025-11-09T18:22:46.260902+05:30[Asia/Calcutta]   STEP START: Then I should see a required field error for "First Name"
+  Then I should see a required field error for "First Name"                # com.parabank.stepdefinitions.RegistrationSteps.i_should_see_required_field_error_for(java.lang.String)
+2025-11-09T18:22:46.553430+05:30[Asia/Calcutta]   STEP FINISH: I should see a required field error for "First Name" => PASSED (292ms)
+2025-11-09T18:22:46.553430+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                             # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:46.581845500+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (28ms)
+2025-11-09T18:22:46.582353800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:46.945458800+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:46.945458800+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration fails when a required field is missing (First Name) => PASSED
+2025-11-09T18:22:46.946889900+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration cases driven by examples #1" classname="Parabank Registration" time="5.532">
+    <system-out><![CDATA[
+Scenario Outline: Registration cases driven by examples                             # src/test/resources/features/registration.feature:46
+2025-11-09T18:22:46.954243800+05:30[Asia/Calcutta] SCENARIO START: Registration cases driven by examples
+2025-11-09T18:22:46.954243800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:47.825714100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:47.825714100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:47.826716100+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:47.826716100+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                              # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:49.226666500+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1399ms)
+2025-11-09T18:22:49.227670500+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                                 # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:49.792770300+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (565ms)
+2025-11-09T18:22:49.792770300+05:30[Asia/Calcutta]   STEP START: When I register with username "abcd_xyz" and password "abcd@123"
+  When I register with username "abcd_xyz" and password "abcd@123"                  # com.parabank.stepdefinitions.RegistrationSteps.i_register_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:52.103601900+05:30[Asia/Calcutta]   STEP FINISH: I register with username "abcd_xyz" and password "abcd@123" => PASSED (2309ms)
+2025-11-09T18:22:52.105782200+05:30[Asia/Calcutta]   STEP START: Then I should see outcome "username_exists" for username "abcd_xyz" and field "-"
+  Then I should see outcome "username_exists" for username "abcd_xyz" and field "-" # com.parabank.stepdefinitions.RegistrationParamSteps.i_should_see_outcome_for_username_and_field(java.lang.String,java.lang.String,java.lang.String)
+2025-11-09T18:22:52.194954200+05:30[Asia/Calcutta]   STEP FINISH: I should see outcome "username_exists" for username "abcd_xyz" and field "-" => PASSED (89ms)
+2025-11-09T18:22:52.196070400+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                                      # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:52.223856200+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (27ms)
+2025-11-09T18:22:52.224419400+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:52.478236700+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:52.478236700+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration cases driven by examples => PASSED
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Registration cases driven by examples #2" classname="Parabank Registration" time="5.883">
+    <system-out><![CDATA[
+Scenario Outline: Registration cases driven by examples                          # src/test/resources/features/registration.feature:47
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta] SCENARIO START: Registration cases driven by examples
+2025-11-09T18:22:52.479628100+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK START: BEFORE
+2025-11-09T18:22:53.326471800+05:30[Asia/Calcutta]   HOOK FINISH: BEFORE => PASSED
+2025-11-09T18:22:53.328484200+05:30[Asia/Calcutta]   STEP START: Given I am on the Parabank home page
+  Given I am on the Parabank home page                                           # com.parabank.stepdefinitions.RegistrationSteps.i_am_on_parabank_home_page()
+2025-11-09T18:22:54.685458800+05:30[Asia/Calcutta]   STEP FINISH: I am on the Parabank home page => PASSED (1356ms)
+2025-11-09T18:22:54.685458800+05:30[Asia/Calcutta]   STEP START: When I open the registration form
+  When I open the registration form                                              # com.parabank.stepdefinitions.RegistrationSteps.i_open_the_registration_form()
+2025-11-09T18:22:55.476866800+05:30[Asia/Calcutta]   STEP FINISH: I open the registration form => PASSED (790ms)
+2025-11-09T18:22:55.476866800+05:30[Asia/Calcutta]   STEP START: When I register with username "unique" and password ""
+  When I register with username "unique" and password ""                         # com.parabank.stepdefinitions.RegistrationSteps.i_register_with_username_and_password(java.lang.String,java.lang.String)
+2025-11-09T18:22:57.897057700+05:30[Asia/Calcutta]   STEP FINISH: I register with username "unique" and password "" => PASSED (2420ms)
+2025-11-09T18:22:57.897057700+05:30[Asia/Calcutta]   STEP START: Then I should see outcome "password_error" for username "unique" and field "-"
+  Then I should see outcome "password_error" for username "unique" and field "-" # com.parabank.stepdefinitions.RegistrationParamSteps.i_should_see_outcome_for_username_and_field(java.lang.String,java.lang.String,java.lang.String)
+2025-11-09T18:22:57.963514200+05:30[Asia/Calcutta]   STEP FINISH: I should see outcome "password_error" for username "unique" and field "-" => PASSED (66ms)
+2025-11-09T18:22:57.963514200+05:30[Asia/Calcutta]   STEP START: And I logout
+  And I logout                                                                   # com.parabank.stepdefinitions.OpenAccountSteps.i_logout()
+2025-11-09T18:22:57.993158100+05:30[Asia/Calcutta]   STEP FINISH: I logout => PASSED (24ms)
+2025-11-09T18:22:57.993158100+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:58.362108400+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta]   HOOK START: AFTER
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta]   HOOK FINISH: AFTER => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta] SCENARIO FINISHED: Registration cases driven by examples => PASSED
+2025-11-09T18:22:58.362621900+05:30[Asia/Calcutta] --------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 09, 2025 6:22:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 142
+Nov 09, 2025 6:22:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 142.0.7444.60. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
