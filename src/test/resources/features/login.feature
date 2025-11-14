@@ -10,7 +10,7 @@ Feature: Parabank Login
     And I logout
 
   Scenario: Login fails with invalid credentials
-    When I attempt to login with username "invalid_user" and password "badpass"
+    When I attempt to login with username "invalid_user" and password ""
     Then I should see a login error mentioning invalid credentials
     And I logout
 
