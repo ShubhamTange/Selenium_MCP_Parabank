@@ -8,7 +8,7 @@ pipeline {
 
   options {
     timestamps()
-    ansiColor('xterm')
+    //ansiColor('xterm')
     // keep 10 builds
     buildDiscarder(logRotator(numToKeepStr: '10'))
   }
